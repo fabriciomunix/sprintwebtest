@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 1em;
+    font-weight: bold;
+}
+
+main {
+    padding: 2em;
+}
+
+#slideshow {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto 2em;
+    border: 5px solid #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#slideshow img {
+    width: 100%;
+    height: 100%;
+}
+
+.slide-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+#prev {
+    left: 0;
+}
+
+#next {
+    right: 0;
+}
+
+#content h2 {
+    color: #d40000;
+}
+
+.action-button {
+    background-color: #d40000;
+    color: #fff;
+    border: none;
+    padding: 1em 2em;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #ffcc00;
+}
+
+#logindiv {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 2em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.botão{
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
